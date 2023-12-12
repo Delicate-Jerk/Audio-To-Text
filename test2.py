@@ -1,3 +1,5 @@
+#with ffmpeg library
+
 from flask import Flask, request, jsonify
 import speech_recognition as sr
 from pydub import AudioSegment
